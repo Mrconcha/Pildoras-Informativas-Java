@@ -1,0 +1,27 @@
+package poo;
+
+public class Uso_coche {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+
+		//Nomenclatura:  La Clase + nuevo objeto = new + nombre del constructor
+		
+		Coche Renault = new Coche();      // instanciar una clase
+		
+	
+		System.out.println(Renault.dime_largo());
+		
+	    Renault.establece_color1();
+	    
+	    System.out.println(Renault.dime_color());
+	    
+	    Coche miconche= new Coche();
+	    miconche.establece_color2("azul");
+	    System.out.println(Renault.dime_color());
+		
+	}
+
+}
+
+

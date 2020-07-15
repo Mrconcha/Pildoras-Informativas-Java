@@ -1,0 +1,32 @@
+package poo;
+
+public class Uso_coche {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+
+		//Nomenclatura:  La Clase + nuevo objeto = new + nombre del constructor
+		
+		Coche Renault = new Coche();      // instanciar una clase
+		
+	
+		System.out.println(Renault.dime_largo());
+		
+	    Renault.establece_color1();
+	     System.out.println(Renault.dime_color());
+	    
+	     // pasando parametro
+	    Coche micoche= new Coche();
+	    micoche.establece_color2("Amarillo");
+	    System.out.println(micoche.dime_color());
+	    
+	    System.out.println(micoche.dime_datos_generales());
+	    
+	    micoche.configura_asientos("si");
+	    System.out.println(micoche.dime_asientos());
+	    System.out.println("Precio final del coche "+micoche.precio_coche());
+	}
+
+}
+
+

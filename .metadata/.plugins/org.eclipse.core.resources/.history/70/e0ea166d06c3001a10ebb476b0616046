@@ -1,0 +1,44 @@
+package poo;
+
+
+public class Coche {
+
+	private int ruedas;
+	private int largo;
+	private int ancho;
+	private int motor;
+	private int peso;
+	private int peso_plataroforma;
+	String Color;
+	int peso_total;
+	boolean asientos_cuero, climatizador;
+	
+	// metodo constructor, tiene el mismo nobre de la clase s
+	public Coche()
+	{
+		ruedas=4;
+		largo=2000;
+		ancho=300;
+		motor=1600;
+		peso=500;
+				
+	}
+	
+	
+ public String dime_largo()    //metodo getters
+ {
+	 
+	 return "El largo del coche es : "+largo;
+ }
+ 
+ public void establece_color()  // metodo setters
+  {
+    Color="azul";	 
+ }
+	
+ public String dime_color()
+ {
+	 return "el colo del coche es : "+Color;
+ }
+	
+}
