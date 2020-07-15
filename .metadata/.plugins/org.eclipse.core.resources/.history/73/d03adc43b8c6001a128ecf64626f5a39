@@ -23,7 +23,7 @@ public class Coche
 		motor=1600;
 		peso=500;
 		peso_plataforma=500;
-		// borrar esta linea es para prueba del git
+		// borrar esta linea
 	}
 	
 	
